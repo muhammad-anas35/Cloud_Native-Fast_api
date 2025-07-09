@@ -9,11 +9,8 @@ class User:
     name: str
     age: int
 
-# User_name: str = input("Enter your name: ")
-# User_age:int = input("Enter your age: ")
-# Detail = User(User_name, User_age)
 
-Detail = User("M_Anas", 20)
+Detail = User("Abc",25)
  
 @app.get("/Greet_with_Name")
 def Greet_to_all():
